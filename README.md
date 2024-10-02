@@ -10,9 +10,22 @@
 Всі операції захищені за допомогою OAuth 2.0, використовуючи параметри клієнта та секрети, надані GitHub.
 Інструкція як запустити файл локально:
 1. Клонувати репозиторій або зберегти файл на комп'ютер:
-2. Завантажити або скопіюй файл oauth.py на свій комп'ютер.
+2. Завантажити або скопіюйте файл oauth.py на свій комп'ютер.
 3. Відкрити термінал (Command Prompt або PowerShell на Windows, Terminal на macOS або Linux).
 2. Встановити Python та бібліотеки:
    Встанови необхідні бібліотеки для роботи з Flask та OAuth
-   Команда:pip install Flask requests
+   Команда:pip install -r requirements.txt
+   Команда:pip install Flask requests oauthlib
    Запускати файл через директорію де він знаходиться 
+   Після запуску файлу перейти в браузері на локальну мережу http://localhost:5000
+   Скріншоти як виглядає сайт та як він працює:
+   ![image](https://github.com/user-attachments/assets/8fb2d6fb-8fbf-45e0-824f-1c038a5087c0)
+   ![image](https://github.com/user-attachments/assets/07006d10-e42c-47b8-bc45-e678974a7f54)
+   ![image](https://github.com/user-attachments/assets/bc2db1da-c3b9-4fcf-a2ff-12c921b34b62)
+   ![image](https://github.com/user-attachments/assets/2833cc83-c070-4882-884b-9a0d5ff99845)
+
+
+
+
+
+   
